@@ -8,6 +8,10 @@ University cafeterias often experience long queues during peak break times, caus
 
 To tackle this issue, Food Chapchap was developed to reduce wait times by allowing users to browse menus, place orders, and complete payments in advance. The app thus ensures a faster, more convenient dining experience for everyone.
 
+# Demonstration
+
+Attached in the repository is a 1 minute .mp4 file demonstarting some of the UI/UX and navigations.
+
 # Signup Page
 
 <img width="123" alt="image" src="https://github.com/user-attachments/assets/1274ff56-6d5e-4f0c-8653-bb9329b93569">
