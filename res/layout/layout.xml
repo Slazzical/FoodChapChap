@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background Image -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Intro Image -->
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:scaleType="fitXY"
+            android:src="@drawable/intro_pic" />
+
+        <!-- Decorative Arc Image -->
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/arc" />
+
+        <!-- Bottom View (Pink Background) -->
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="#F75564" />
+    </LinearLayout>
+
+    <!--Welcome Text-->
+    <TextView
+        android:id="@+id/WelcomeToFoodAppText"
+        android:layout_width="303dp"
+        android:layout_height="237dp"
+        android:layout_gravity="bottom|center|center_horizontal|end"
+        android:layout_margin="30dp"
+        android:text="Food Chapchap"
+        android:textColor="@android:color/white"
+        android:textSize="36dp"
+        android:textStyle="bold"
+        />
+    <!-- Sign Up Text -->
+    <TextView
+        android:id="@+id/signupBtn"
+        android:layout_width="104dp"
+        android:layout_height="49dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:text="Sign Up"
+        android:textColor="@android:color/white"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+    <!-- Sign In Text -->
+    <TextView
+        android:id="@+id/signinBtn"
+        android:layout_width="116dp"
+        android:layout_height="53dp"
+        android:layout_gravity="bottom|start"
+        android:layout_margin="16dp"
+        android:text="Sign In"
+        android:textColor="@android:color/white"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+</FrameLayout>
