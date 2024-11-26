@@ -12,6 +12,10 @@ To tackle this issue, Food Chapchap was developed to reduce wait times by allowi
 
 Attached in the repository is a 1 minute .mp4 file demonstarting some of the UI/UX and navigations.
 
+# Landing Page
+
+<img width="103" alt="image" src="https://github.com/user-attachments/assets/3a066d76-0df5-4121-a6e5-a0c6d0b0d17e">
+
 # Signup Page
 
 <img width="123" alt="image" src="https://github.com/user-attachments/assets/1274ff56-6d5e-4f0c-8653-bb9329b93569">
