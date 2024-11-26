@@ -94,15 +94,17 @@
         android:padding="16dp">
 
         <ImageView
-            android:layout_width="24dp"
-            android:layout_height="24dp" />
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/fries_packet"/>
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
             android:layout_weight="1"
-            android:text="Fast Food"
+            android:text="Fries"
             android:textSize="16sp" />
     </LinearLayout>
     <LinearLayout
@@ -111,15 +113,17 @@
         android:padding="16dp">
 
         <ImageView
-            android:layout_width="24dp"
-            android:layout_height="24dp" />
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/burger"/>
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
             android:layout_weight="1"
-            android:text="Fast Food"
+            android:text="Burgers"
             android:textSize="16sp" />
     </LinearLayout>
     <LinearLayout
@@ -128,15 +132,17 @@
         android:padding="16dp">
 
         <ImageView
-            android:layout_width="24dp"
-            android:layout_height="24dp" />
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/pasta" />
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
             android:layout_weight="1"
-            android:text="Fast Food"
+            android:text="Pasta"
             android:textSize="16sp" />
     </LinearLayout>
     <LinearLayout
@@ -145,15 +151,17 @@
         android:padding="16dp">
 
         <ImageView
-            android:layout_width="24dp"
-            android:layout_height="24dp" />
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/rice_stew" />
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
             android:layout_weight="1"
-            android:text="Fast Food"
+            android:text="Rice"
             android:textSize="16sp" />
     </LinearLayout>
     <LinearLayout
@@ -162,15 +170,17 @@
         android:padding="16dp">
 
         <ImageView
-            android:layout_width="24dp"
-            android:layout_height="24dp" />
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/chapati" />
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
             android:layout_weight="1"
-            android:text="Fast Food"
+            android:text="Chapati"
             android:textSize="16sp" />
     </LinearLayout>
     <LinearLayout
@@ -179,15 +189,17 @@
         android:padding="16dp">
 
         <ImageView
-            android:layout_width="24dp"
-            android:layout_height="24dp" />
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/roast_chicken" />
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
             android:layout_weight="1"
-            android:text="Fast Food"
+            android:text="Chicken"
             android:textSize="16sp" />
     </LinearLayout>
     <LinearLayout
@@ -196,8 +208,9 @@
         android:padding="16dp">
 
         <ImageView
-            android:layout_width="24dp"
-            android:layout_height="24dp" />
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/fries_packet" />
 
         <TextView
             android:layout_width="0dp"

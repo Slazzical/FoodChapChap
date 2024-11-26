@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import android.widget.Button
 import androidx.activity.ComponentActivity
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
@@ -30,18 +31,22 @@ class MainActivity : ComponentActivity() {
                 Log.e("MainActivity", "Error launching SearchCafeteriaActivity", e)
             }
         }
-        // Set up the click listener for the search icon
-        fun viewCafeteria(view: View) {
-            // Create an intent to navigate to CafeteriaActivity
-            try {
-                // Log to confirm the click event
-                Log.d("MainActivity", "View Button clicked")
 
-                val intent = Intent(this, CafeteriaActivity::class.java)
-                startActivity(intent)
-            } catch (e: Exception) {
-                // Log any exceptions to catch potential errors
-                Log.e("MainActivity", "Error launching CafeteriaActivity", e)
+        val buttonIds = listOf(R.id.view_cafeteria, R.id.view_cafeteria2, R.id.view_cafeteria3, R.id.view_cafeteria4)
+
+        buttonIds.forEach { buttonId ->
+            val myButton = findViewById<Button>(buttonId)
+            myButton.setOnClickListener {
+                try {
+                    // Log to confirm the click event with specific button ID
+                    Log.d("MainActivity", "Button with ID: $buttonId clicked")
+
+                    val intent = Intent(this, CafeteriaActivity::class.java)
+                    startActivity(intent)
+                } catch (e: Exception) {
+                    // Log any exceptions with context of button ID
+                    Log.e("MainActivity", "Error launching CafeteriaActivity for Button $buttonId", e)
+                }
             }
         }
     }

@@ -173,6 +173,7 @@
 
                     <!-- View Button -->
                     <Button
+                        android:id="@+id/view_cafeteria"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
@@ -183,8 +184,7 @@
                         android:paddingHorizontal="16dp"
                         android:paddingVertical="8dp"
                         android:layout_gravity="start"
-                        android:background="@drawable/button_rounded"
-                        android:onClick="viewCafeteria"/>
+                        android:background="@drawable/button_rounded" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -252,6 +252,7 @@
 
                     <!-- View Button -->
                     <Button
+                        android:id="@+id/view_cafeteria2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
@@ -329,6 +330,7 @@
 
                     <!-- View Button -->
                     <Button
+                        android:id="@+id/view_cafeteria3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
@@ -407,6 +409,7 @@
 
                     <!-- View Button -->
                     <Button
+                        android:id="@+id/view_cafeteria4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
@@ -439,6 +442,34 @@
             android:orientation="horizontal">
 
             <!-- Repeat these buttons for each category -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="28dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="Category Icon"
+                    android:src="@drawable/burger"
+                    android:background="@drawable/circular_image"
+                    android:scaleType="centerCrop"
+                    android:cropToPadding="true"
+                    android:clipToOutline="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Burgers"
+                    android:textColor="#000"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -454,7 +485,8 @@
                     android:src="@drawable/fries_packet"
                     android:background="@drawable/circular_image"
                     android:scaleType="centerCrop"
-                    android:cropToPadding="true" />
+                    android:cropToPadding="true"
+                    android:clipToOutline="true"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -477,16 +509,17 @@
                     android:layout_height="48dp"
                     android:layout_gravity="center"
                     android:contentDescription="Category Icon"
-                    android:src="@drawable/fries_packet"
+                    android:src="@drawable/roast_chicken"
                     android:background="@drawable/circular_image"
                     android:scaleType="centerCrop"
-                    android:cropToPadding="true" />
+                    android:cropToPadding="true"
+                    android:clipToOutline="true" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
-                    android:text="Fries"
+                    android:text="Chicken"
                     android:textColor="#000"
                     android:textSize="14sp" />
 
@@ -503,16 +536,17 @@
                     android:layout_height="48dp"
                     android:layout_gravity="center"
                     android:contentDescription="Category Icon"
-                    android:src="@drawable/fries_packet"
+                    android:src="@drawable/chapati"
                     android:background="@drawable/circular_image"
                     android:scaleType="centerCrop"
-                    android:cropToPadding="true" />
+                    android:cropToPadding="true"
+                    android:clipToOutline="true" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
-                    android:text="Fries"
+                    android:text="Chapati"
                     android:textColor="#000"
                     android:textSize="14sp" />
 
@@ -529,16 +563,17 @@
                     android:layout_height="48dp"
                     android:layout_gravity="center"
                     android:contentDescription="Category Icon"
-                    android:src="@drawable/fries_packet"
+                    android:src="@drawable/pasta"
                     android:background="@drawable/circular_image"
                     android:scaleType="centerCrop"
-                    android:cropToPadding="true" />
+                    android:cropToPadding="true"
+                    android:clipToOutline="true" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
-                    android:text="Fries"
+                    android:text="Pasta"
                     android:textColor="#000"
                     android:textSize="14sp" />
 
@@ -555,42 +590,17 @@
                     android:layout_height="48dp"
                     android:layout_gravity="center"
                     android:contentDescription="Category Icon"
-                    android:src="@drawable/fries_packet"
+                    android:src="@drawable/rice_stew"
                     android:background="@drawable/circular_image"
                     android:scaleType="centerCrop"
-                    android:cropToPadding="true" />
+                    android:cropToPadding="true"
+                    android:clipToOutline="true" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="4dp"
-                    android:text="Fries"
-                    android:textColor="#000"
-                    android:textSize="14sp" />
-
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="28dp"
-                android:gravity="center"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
-                    android:layout_gravity="center"
-                    android:contentDescription="Category Icon"
-                    android:src="@drawable/fries_packet"
-                    android:background="@drawable/circular_image"
-                    android:scaleType="centerCrop"
-                    android:cropToPadding="true" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="4dp"
-                    android:text="Fries"
+                    android:text="Rice"
                     android:textColor="#000"
                     android:textSize="14sp" />
 
