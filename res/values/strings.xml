@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Food Chapchap</string>
+    <string name="welcome_to_food_app">Welcome to Food App</string>
+    <string name="Name">name\n</string>
+    <string name="email_address">Email Address\n</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="signup">Sign Up</string>
+
+</resources>
